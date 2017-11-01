@@ -12,7 +12,11 @@
 	},
 	"include": [
 		"server/**/*.ts",
-		"server/*.ts"
+		"server/*.ts",
+    "tests/unit/**/*.ts",
+    "tests/unit/*.test.ts",
+    "tests/integration/**/*.ts",
+    "tests/integration/*.test.ts"
 	],
 	"exclude": [
 		"node_modules"
